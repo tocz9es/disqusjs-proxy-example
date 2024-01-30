@@ -9,7 +9,7 @@
             "src": "/(.*)",
             "headers": {
                 "cache-control": "public, max-age=180",
-                "access-control-allow-origin": "https://disqus.tocz9ea.com"
+                "access-control-allow-origin": "origin"
             },
             "dest": "https://disqus.com/api/$1"
         }
